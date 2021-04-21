@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
 })
 
 
-app.use(__dirname + "/public", express.static(__dirname + "/public"));
+app.use("/public", express.static(__dirname + "/public"));
 
 
 
