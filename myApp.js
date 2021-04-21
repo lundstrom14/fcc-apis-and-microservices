@@ -4,10 +4,10 @@ var express = require('express');
 var app = express();
 
 
-console.log("Hello Express");
+console.log('Hello Express');
 
 app.get('/', function(req, res) {
-    absolutePath = __dirname + "/public/index.html";
+    absolutePath = __dirname + "/views/index.html";
     res.sendFile(absolutePath);
 })
 
