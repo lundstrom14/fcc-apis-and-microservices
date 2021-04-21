@@ -2,7 +2,11 @@
     "name": "fcc-learn-npm-package-json",
     "author": "Mattias Lundström",
     "description": "A project description",
-    "keywords": ["freecodecamp", "related", "words"],
+    "keywords": [
+        "freecodecamp",
+        "related",
+        "words"
+    ],
     "license": "MIT",
     "version": "1.2.0",
     "dependencies": {
